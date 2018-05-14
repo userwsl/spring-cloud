@@ -1,0 +1,13 @@
+package com.parent.base;
+
+/**
+ * @description 执行类
+ * @author slwu
+ * @date 2018-05-12
+ */
+public class AppDay2_01 {
+
+	public static void main(String[] args) {
+		
+	}
+}

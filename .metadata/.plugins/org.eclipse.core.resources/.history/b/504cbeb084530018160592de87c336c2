@@ -1,0 +1,5 @@
+package feign.consumer.feignconsumer.controller;
+
+public class TestController {
+
+}

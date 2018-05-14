@@ -1,0 +1,22 @@
+package com.parent.base;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import com.parent.base.bus.Person;
+
+/**
+ * @description 执行类
+ * @author slwu
+ * @date 2018-05-12
+ */
+public class AppDay2_01 {
+
+	//main方法
+	public static void main(String[] args) {
+		List<Person> list_res = new ArrayList<Person>();
+		
+		Scanner scanner = new Scanner();
+	}
+}

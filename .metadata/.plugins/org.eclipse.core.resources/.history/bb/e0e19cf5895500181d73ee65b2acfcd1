@@ -1,0 +1,5 @@
+package com.parent.base;
+
+public class Person {
+
+}

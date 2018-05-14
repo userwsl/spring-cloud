@@ -1,0 +1,52 @@
+package com.parent.base;
+
+/**
+ * @description 是个类，类的话，只要定义一下基本的一些属性，一些行为
+ * @author slwu
+ * 定义一个人的类
+ *
+ */
+public class Person {
+
+	//身高 TODO 作用域的概念
+	private int height;
+	//性别
+	private String sex;
+	//年龄
+	private int age;
+	
+	public Person() {};
+	
+	public Person(int height, String sex, int age) {
+		this.height = height;
+		this.sex = sex;
+		this.age = age;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+	
+}

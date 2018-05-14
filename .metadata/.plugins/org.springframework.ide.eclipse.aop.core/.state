@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo"/>
+<aop-project name="surka-serivice"/>
+<aop-project name="surka-consume"/>
+<aop-project name="feign-consumer"/>
+<aop-project name="spring-eureka-server"/>
+</aop-reference-model>

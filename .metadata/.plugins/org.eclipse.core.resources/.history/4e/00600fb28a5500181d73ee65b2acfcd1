@@ -1,0 +1,11 @@
+package com.parent.base;
+
+//程序人口
+public class AppDay2 {
+
+	//
+	public static void main(String[] args) {
+		//定义男人对象
+		Person zhangzhu = new Person();
+	}
+}

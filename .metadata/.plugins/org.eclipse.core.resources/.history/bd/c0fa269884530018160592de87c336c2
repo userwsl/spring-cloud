@@ -1,0 +1,11 @@
+package feign.consumer.feignconsumer.interfaces;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@FeignClient("STUDENT-SERVICE")
+public interface IStudentService {
+	
+	@RequestMapping(value = "/getStudentDetailsForSchool/1")
+	List<Object> getStudents();
+}

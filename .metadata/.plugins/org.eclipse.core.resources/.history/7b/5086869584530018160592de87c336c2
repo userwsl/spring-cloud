@@ -1,0 +1,5 @@
+package feign.consumer.feignconsumer.interfaces;
+
+public interface IStudentService {
+
+}

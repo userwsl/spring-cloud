@@ -1,0 +1,42 @@
+package com.parent.base;
+
+import java.util.Scanner;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ){
+    	//声明scanner对象
+    	Scanner scanner = new Scanner(System.in);   
+    	//变量1
+    	int i = 1;
+    	//变量2
+    	int a = 0;
+    	//变量
+    	int b = 0;
+    	//如果scanner对象有数据输入
+    	while(scanner.hasNext()) {
+    		// 0，1
+    		if(0 == i % 2) {
+    			//scanner数复制给b变量，存储在计算机内存里面
+    			b = scanner.nextInt();
+    			//输出到控制台 a的值
+    			System.out.println("a = " + a);
+    			//输出到控制台 b的值
+    			System.out.println("b = " + b);
+    			//输出控制台 a+b的值
+    			System.out.println("a + b = "+ (a + b));
+    		}
+    		else {
+    			//scanner的数复制a变量，存储在计算机内存
+    			a = scanner.nextInt(); 
+    		}
+    		//他会存储，你输出的数字个数
+    		i++;
+    		System.out.println("你输入了 " + (i - 1) + "个数。");
+    	}
+    }
+}

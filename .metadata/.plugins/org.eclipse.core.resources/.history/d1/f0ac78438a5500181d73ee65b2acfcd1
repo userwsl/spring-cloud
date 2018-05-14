@@ -1,0 +1,10 @@
+package com.parent.base;
+
+/**
+ * @description 是个类，类的话，只要定义一下基本的一些属性，一些行为
+ * @author slwu
+ *
+ */
+public class Person {
+
+}
